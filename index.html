@@ -10,87 +10,56 @@
 <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=T-K8UrQdm1SydKvdPQ8_ivHZIHYbWpwCq7qqFK8fpKPDip3YWsnpsldJZsEEOOr2kAgaj1QYc5i5IGK1JB5P-wmDGaJ3nJWyuTMBpKq5-TUx4lBNCRSdC8Knid_fjEhaQPG1CKjdTBjzXvFq7GGD9DNdQb6_ilivV4dpXt0cOpJwZu2Yt28mWBD_HQQaQ37XbDISQuxDr3rRO9Zfv8Taq6_kTau4lLsqmTT8yKWA7UcYglPxsmrU5oHYg1hmWQ1zf-fNx8QAvUKoTxItvvQR3Q" charset="UTF-8"></script></head>
 <style>
 body {
-background: skyblue;
+    
+    overflow-x: hidden;
+background: white;
       }
+      
 </style>
 <body>
-    <!-- header/navigation -->
-     <div id="home">
-        <nav class="navbar bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="yourlogo.png" alt="logo" width="30" height="24" class="d-inline-block align-text-top">
-                    Waste Segration
-                </a>
+   <!-- navbar -->
+    <nav class="navbar navbar-expand-lg" style="background-color:#ffffff;">
+        <div class="container-fluid justify-content-between align-items-center">
+            <a class="navbar-brand" href="#">Waste Segregation</a>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#survey">Survey</a>
+                    </li>
+
+                </ul>
             </div>
-        </nav>
-        
-        <div class="justify-content-center img-fluid" alt="Responsive image" style="margin-left: auto; margin-right: auto; height: 400px; object-fit: cover; object-position:0%; position: relative; max-width: 100%; height: auto;">
-             <img src="images/Frame 1.png">
+
+            <a href="#" class="btn fw-bold">Learn More</a>
+        </div>
+    </nav>
+
+    <!-- img bg -->
+    <div style="min-width: 100%; height: auto; position: relative; overflow: hidden;">
+        <img src="images/Frame 1.png" style="width: 100%; min-height: 60vh; object-fit: cover; object-position: center; object-position: bottom;"></img>
+
+         <div class="position-absolute top-50 start-50 translate-middle-x text-white text-center bg-dark bg-opacity-50 p-3 rounded">
+            <h4>Waste Segregation</h4>
+            <p>The issue that needs addressing</p>
         </div>
     </div>
-    <!-- Introduction -->
-     <div class="container mt-4">
-    <div class="row justify-content-center">
-      <div class="col-lg-8">
-        <div class="card">
-          <img src="photo" class="card-img-top" alt="yourphoto">
-          <div class="card-body text-center">
-            <h5 class="card-title">Group Name</h5>
-            <p class="card-text">We aim to raise awareness about proper waste segregation and its impact on our environment.</p>
-            <a href="#" class="btn btn-primary">Learn More</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--
-    <div class="row" style="margin-bottom: 2.5rem;">
-        <div class="col">
-            <center>
-            <div class="card" style="width: 50rem;">
-                <img src="photo" class="card-img-top" alt="yourphoto">
-                <div class="card-body">
-                    <h5 class="card-title">Welcome</h5>
-                    <p class="card-text">Introduction</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+
+    <!-- iframe -->
+    <section id="survey">
+        <div class="shadow-sm row justify-content-center mt-4" href="#survey">
+            <div class="col-lg-8">
+                <div class="card p-3 text-center">
+                <p class="mb-3">We’d love your feedback! Please fill out the survey below:</p>
+                <div class="survey-container">
+                    <iframe style="width: 100%; height: 50rem;" src="https://form.typeform.com/to/IF2zyVe9?typeform-embed=oembed&typeform-medium=embed-oembed&format=json&disable-auto-focus=true">Loading…</iframe>
                 </div>
-                </center>
-            </div>
-        </div>
-    </div>
-<div class="row">
-        <div class="col">
-            <div class="card">
-                <div class="card-body">
-                    Why why blah blah -> please fill out the survey bla bla blah
                 </div>
             </div>
         </div>
-    </div>-->
-    
-
-<!-- Add iframe for survey -->
-
-    <div class="row justify-content-center mt-4">
-      <div class="col-lg-8">
-        <div class="card p-3 text-center">
-          <p class="mb-3">We’d love your feedback! Please fill out the survey below:</p>
-          <div class="survey-container">
-            <iframe style="width: 90%; height: 600px;" src="https://form.typeform.com/to/IF2zyVe9?typeform-embed=oembed&typeform-medium=embed-oembed&format=json&disable-auto-focus=true">Loading…</iframe>
-          </div>
-        </div>
-      </div>
-    </div>
- <center-div>
-    
-
-<!--
-    <div class="card" style="width: fit-content;">
-        <div style="padding-top: 10px; left: 20%; width: 60%; height: 600px; position: relative;"><iframe src="https://form.typeform.com/to/IF2zyVe9?typeform-embed=oembed&typeform-medium=embed-oembed&format=json&disable-auto-focus=true" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen allow="encrypted-media *; fullscreen *;"></iframe></div>
-   <div data-tf-live="01K3GJCCDV4VEACA6RJDSYJAX8"></div><script src="//embed.typeform.com/next/embed.js"></script>
-   <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSewAesV489J6d6fW8TwHtNldqTxO5F4MmWraWZvYeo_uRiTrA/viewform?embedded=true" width="640" height="494" frameborder="0" marginheight="0" marginwidth="0" style="background: antiquewhite;">Loading…</iframe>
- -->
- </div>
-</center-div>
+    </section>
 </body>
 </html>
