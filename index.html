@@ -6,114 +6,158 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=UnifrakturMaguntia" rel="stylesheet">
     <title>Waste Segregation</title>
 </head>
 <style>
     body {
-        
+
         overflow-x: hidden;
-    background: white;
-        }
-        
-    </style>
+        background: white;
+    }
+
+    @font-face {
+        font-family: 'OldeEnglish';
+        src: url('assets/OldeEnglish.ttf') format('truetype');
+    }
+</style>
+
 <body>
-   <!-- navbar -->
-    <nav class="navbar shadow navbar-expand-lg" style="background-color:#ffffff;">
-        <div class="container-fluid justify-content-between align-items-center">
-            <a class="navbar-brand" href="#">Waste Segregation</a>
-            
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#game">Game</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#survey">Survey</a>
-                    </li>
-
-                </ul>
-            </div>
-
-            <a href="#" class="btn fw-bold">Learn More</a>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="assets/SMSM.png" width="30" height="30" class="d-inline-block align-top" alt="">
+            <a style="font-family: 'OldeEnglish', serif;color: rgb(78, 78, 179);">School of Mount St. Mary Inc.</a>
+        </a>
+        <a class="navbar-brand"></a>
+        <a class="navbar-brand">Topic: Waste Segregation</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#game">Game</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#survey">Survey</a>
+                </li>
+            </ul>
         </div>
     </nav>
 
-    <!-- img bg -->
-    <div style="width: auto; height: auto; position: relative; overflow: hidden;">
-        <img src="assets/basepage.png" style="min-width: 100%; min-height: 100%; object-fit: cover; object-position: center; object-position: top;"></img>
-
-         <!--
-         <div class="position-absolute top-50 start-50 translate-middle-x text-white text-center bg-dark bg-opacity-50 p-3 rounded">
-            <h4>Waste Segregation</h4>
-            <p>The issue that needs addressing</p>
-        </div>-->
-    </div>
-    
-
-    <!-- About Section-->
-            <section class="bg-primary-subtle py-5">
-                <div class="container px-5">
-                    <div class="row gx-5 justify-content-center">
-                        <div class="col-xxl-8">
-                            <div class="text-center my-5">
-                                <h2 class="display-5 fw-bolder"><span class="text-gradient d-inline">Waste Segregation</span></h2>
-                                <p class="lead fw-light mb-4">A quick overview on the problem</p>
-                                <p class="text-muted">According to 
-                                    <a href="https://datatopics.worldbank.org/what-a-waste/trends_in_solid_waste_management.html"><em>The World Bank</em></a>, the world generates about 2 billion tonnes of solid waste in municipalities every year, yet 33% of that waste isn't managed in a safe manner. 
-                                   <a href="https://ourworldindata.org/grapher/share-of-global-plastic-waste-emitted-to-the-ocean?tab=table"><em>In 2021</em></a>, the Philippines was noted to have contributed to 36.38% of plastic waste in the ocean, being the greatest shareholder.
-                                    <a href="https://innspub.net/solid-waste-management-practices-of-high-school-students-in-selected-secondary-schools-of-zambales-philippines/"><em>Junior highschool students</em></a>, despite having waste segregation as a practice, still do not always segregate waste properly.
-                                    <br><br>The School of Mount St. Mary, Inc. is now implementing waste segregation practices for their students.
-                                    
+    <!-- About section -->
+    <div class="card text-bg-dark" style="padding-top: 50px;">
+        <img src="assets/Earth.png" class="card-img" alt="...">
+        <div class="card-img-overlay d-flex align-items-center">
+            <div class="container">
+                <div class="row justify-content-start">
+                    <div class="col-12 col-md-10 col-lg-8">
+                        <h5 class="card-title display-6 display-md-5 display-lg-4 mb-3 fw-bold">
+                            The world is suffering from trash
+                        </h5>
+                        <div class="card shadow-sm" style="background-color: rgba(255, 255, 255, 0.85);">
+                            <div class="card-body">
+                                <p class="card-text fs-6 fs-md-5">
+                                    Our oceans are drowning in plastic. We need your help in showing students around the
+                                    world how to segregate waste.
                                 </p>
-                                <div class="d-flex justify-content-center fs-2 gap-4">
-                                    <a class="text-gradient" href="#!"><i class="bi bi-twitter"></i></a>
-                                    <a class="text-gradient" href="#!"><i class="bi bi-linkedin"></i></a>
-                                    <a class="text-gradient" href="#!"><i class="bi bi-github"></i></a>
-                                </div>
+                                <p class="card-text fs-6 fs-md-6">
+                                    <small>
+                                        Many students across the globe still lack the know-how on how to properly
+                                        segregate waste and how to practice it. Awareness isn't enough—it has to be
+                                        applied.
+                                    </small>
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- Information Section-->
+    <section class="bg-primary-subtle py-5">
+        <div class="container px-5">
+            <div class="row gx-5 justify-content-center">
+                <div class="col-xxl-8">
+                    <div class="text-center my-5">
+                        <h2 class="display-5 fw-bolder"><span class="text-gradient d-inline">Waste Segregation</span>
+                        </h2>
+                        <p class="lead fw-light mb-4">A quick overview on the problem</p>
+                        <p class="text-muted">According to
+                            <a
+                                href="https://datatopics.worldbank.org/what-a-waste/trends_in_solid_waste_management.html"><em>The
+                                    World Bank</em></a>, the world generates about 2 billion tonnes of solid waste in
+                            municipalities every year, yet 33% of that waste isn't managed in a safe manner.
+                            <a
+                                href="https://ourworldindata.org/grapher/share-of-global-plastic-waste-emitted-to-the-ocean?tab=table"><em>In
+                                    2021</em></a>, the Philippines was noted to have contributed to 36.38% of plastic
+                            waste in the ocean, being the greatest shareholder.
+                            <a
+                                href="https://innspub.net/solid-waste-management-practices-of-high-school-students-in-selected-secondary-schools-of-zambales-philippines/"><em>Junior
+                                    highschool students</em></a>, despite having waste segregation as a practice, still
+                            do not always segregate waste properly.
+                            <br><br>The <a style="font-family: 'OldeEnglish', serif;color: rgb(78, 78, 179);">School of Mount St. Mary Inc.</a> is now implementing waste segregation practices
+                            for their students.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- iframe Game -->
     <section id="game">
-        <div class="row justify-content-center mt-4" href="#game">
-            <div class="col-lg-6">
-                <div class="shadow-sm card p-3 text-center">
-                <p class="mb-3">Please play this game to test your knowledge in waste segregation:</p>
-                <div class="survey-container">
-                    <iframe style="width: 100%; height: 50rem;" src="testgame.html" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen>Loading…</iframe>
-                </div>
+        <div class="container-fluid px-3 px-md-5 mt-4">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10 col-lg-12">
+                    <div class="shadow-sm card p-3 text-center">
+                        <p class="mb-3">Please play this game to test your knowledge in waste segregation:</p>
+                        <div class="survey-container">
+                            <iframe class="w-100" style="height: 50rem;" src="testgame.html" allowtransparency="true"
+                                frameborder="0" scrolling="no" allowfullscreen>Loading…</iframe>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-     <!-- Survey-->
+    <!-- Survey -->
     <section id="survey">
-        <div class="row justify-content-center mt-4" href="#survey">
-            <div class="col-lg-6">
-                <div class="shadow-sm card p-3 text-center">
-                <p class="mb-3">We’d love your feedback! Please fill out the survey below:</p>
-                <div class="survey-container">
-                    <iframe style="width: 100%; height: 50rem;" src="https://docs.google.com/forms/d/e/1FAIpQLSdfY0Ptc5N0J75rPBaq8cJtRrQoc1cjpZ32O5wOiyUOq4Z9eg/viewform?embedded=true">Loading…</iframe>
-                </div>
+        <div class="container-fluid px-3 px-md-5 mt-4">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10 col-lg-12">
+                    <div class="shadow-sm card p-3 text-center">
+                        <p class="mb-3">We’d love your feedback! Please fill out the survey below:</p>
+                        <div class="survey-container">
+                            <iframe class="w-100" style="height: 50rem;"
+                                src="https://docs.google.com/forms/d/e/1FAIpQLSdfY0Ptc5N0J75rPBaq8cJtRrQoc1cjpZ32O5wOiyUOq4Z9eg/viewform?embedded=true">Loading…</iframe>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-     <!-- Footer-->
+
+    <!-- Footer-->
     <footer class="bg-primary-subtle-gradient shadow py-4 mt-4">
         <div class="container">
             <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                <div class="col-auto"><div class="small m-0">megamanups 2025</div></div>
+                <div class="col-auto">
+                    <div class="small m-0">Laine(Mayaine) and Megamanups &copy; 2025</div>
+                </div>
             </div>
         </div>
     </footer>
 </body>
+
 </html>
